@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/emily883/Emily-s-Portfolio/main/dist/resume.pdf?token=GHSAT0AAAAAABRR5J7FJGXTCNMZ54U5QWTQYTNWVVQ";
+  "https://raw.githubusercontent.com/emily883/portfolio_Emily_/main/src/Assets/EmilyCruzGutierrezResume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
