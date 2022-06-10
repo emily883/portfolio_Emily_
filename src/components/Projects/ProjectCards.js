@@ -4,7 +4,6 @@ import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
 
 function ProjectCards(props) {
-  console.log(props);
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -13,10 +12,16 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
+        <Button variant="primary" href={props.repositoryLink} target="_blank">
           <BiLinkExternal /> &nbsp;
-          {props.repository ? "View Repository" : "View Project"}
+          {"View Repository"}
         </Button>
+        {props.live ? (
+          <Button variant="third" href={props.Livelink} target="_blank">
+            <BiLinkExternal /> &nbsp;
+            {"View Project"}
+          </Button>
+        ) : null}
       </Card.Body>
     </Card>
   );
