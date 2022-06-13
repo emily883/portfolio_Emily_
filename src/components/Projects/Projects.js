@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import imageWeatherApp from "../../Assets/WeatherAppImage.jpg"
+import imageWeatherApp from "../../Assets/WeatherAppImage.jpg";
+import ImageUploaderImage from "../../Assets/ImageUploaderImage.jpg";
 
 function Projects() {
   return (
@@ -40,6 +41,18 @@ function Projects() {
               live={true}
               repositoryLink="https://github.com/emily883/weatherpandappV.2"
               Livelink="https://weatherpandaapp.herokuapp.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                ImageUploaderImage
+              }
+              title="Image Uploader & Share"
+              description="Web page where you can upload a photo to the server and share it with your friends and family through a link given when you finish uploading your image. | Made using React, NodeJs, ExpressJs, CSS3 Modules"
+              live={true}
+              repositoryLink="https://github.com/emily883/ImageUploader"
+              Livelink="https://imageuploaderclient.herokuapp.com/"
             />
           </Col>
         </Row>
