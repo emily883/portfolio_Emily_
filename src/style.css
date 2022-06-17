@@ -412,6 +412,7 @@ button:focus {
 }
 
 .footer-body {
+  z-index: 1;
   text-align: center !important;
 }
 
@@ -519,6 +520,16 @@ button:focus {
   color: #fff !important;
   background-color: #623686 !important;
   border-color: #623686 !important;
+  margin-bottom: 10px !important;
+  margin-right: 5px  !important;
+}
+
+.btn-third {
+  color: #fff !important;
+  background-color: #615968 !important;
+  border-color: #615968 !important;
+  margin-bottom: 10px !important;
+  margin-left: 5px  !important;
 }
 
 .btn-primary:hover {

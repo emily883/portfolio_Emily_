@@ -13,12 +13,12 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        {/* <p style={{ color: "white" }}>
+        <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
-        </p> */}
+        </p>
         <p style={{ color: "white" }}>Here are a project I've worked on.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={
                 "https://raw.githubusercontent.com/emily883/PI-Dogs-FT__13__/main/img/homePage.jpg"
@@ -30,7 +30,7 @@ function Projects() {
               repositoryLink="https://github.com/emily883/PI-Dogs-FT__13__"
               Livelink
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={

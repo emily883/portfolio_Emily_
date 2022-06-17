@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/undraw_female_avatar_w3jk.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillMail,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -18,8 +15,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Knowledge and programming make a nice couple, continuous learning,
+              with no end.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -60,9 +57,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <p>Feel free to connect with me</p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
